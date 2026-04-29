@@ -1,0 +1,172 @@
+[
+  {
+    "id": "INT-001",
+    "category": "interna",
+    "subcategory": "kardiologia",
+    "difficulty": 2,
+    "source": "LEK 2023/1",
+    "question": "Który z poniższych leków jest lekiem pierwszego wyboru w przewlekłej niewydolności serca z obniżoną frakcją wyrzutową (HFrEF)?",
+    "question_image": null,
+    "answers": [
+      { "key": "A", "text": "Furosemid", "correct": false, "explanation": "Furosemid to diuretyk pętlowy — łagodzi objawy, ale nie poprawia rokowania w HFrEF.", "image": null },
+      { "key": "B", "text": "Digoksyna", "correct": false, "explanation": "Digoksyna może być stosowana pomocniczo, ale nie jest lekiem pierwszego wyboru.", "image": null },
+      { "key": "C", "text": "Metoprolol", "correct": true, "explanation": "Beta-blokery (metoprolol, bisoprolol, karwedilol) zmniejszają śmiertelność w HFrEF i są lekiem pierwszego rzutu.", "image": null },
+      { "key": "D", "text": "Amiodaron", "correct": false, "explanation": "Amiodaron stosuje się w arytmiach, nie jest lekiem pierwszego wyboru w HF.", "image": null },
+      { "key": "E", "text": "Werapamil", "correct": false, "explanation": "Werapamil jest przeciwwskazany w HFrEF — działa ujemnie inotropowo.", "image": null }
+    ],
+    "tags": ["kardiologia", "farmakologia"]
+  },
+  {
+    "id": "PED-001",
+    "category": "pediatria",
+    "subcategory": "neonatologia",
+    "difficulty": 1,
+    "source": "LEK 2022/2",
+    "question": "Jaka jest prawidłowa masa ciała noworodka urodzonego o czasie?",
+    "question_image": null,
+    "answers": [
+      { "key": "A", "text": "1500–2000 g", "correct": false, "explanation": "Masa poniżej 2500 g definiuje małą urodzeniową masę ciała (LBW).", "image": null },
+      { "key": "B", "text": "2000–2500 g", "correct": false, "explanation": "Wartość poniżej normy — noworodek z małą masą urodzeniową.", "image": null },
+      { "key": "C", "text": "2500–4500 g", "correct": true, "explanation": "Prawidłowa masa ciała noworodka urodzonego o czasie wynosi 2500–4500 g (średnio ok. 3300 g).", "image": null },
+      { "key": "D", "text": "4500–5000 g", "correct": false, "explanation": "Masa powyżej 4500 g to makrosomia płodu.", "image": null },
+      { "key": "E", "text": "Powyżej 5000 g", "correct": false, "explanation": "Makrosomia znaczna — może wskazywać na cukrzycę matczyną.", "image": null }
+    ],
+    "tags": ["neonatologia", "antropometria"]
+  },
+  {
+    "id": "INT-002",
+    "category": "interna",
+    "subcategory": "metabolizm",
+    "difficulty": 3,
+    "source": "LEK 2023/2",
+    "question": "Które z poniższych stanowią kryteria zespołu metabolicznego wg IDF? (zaznacz wszystkie prawidłowe)",
+    "question_image": null,
+    "answers": [
+      { "key": "A", "text": "Obwód talii ≥ 94 cm u mężczyzn", "correct": true, "explanation": "Otyłość brzuszna jest głównym kryterium IDF: ≥94 cm u mężczyzn, ≥80 cm u kobiet.", "image": null },
+      { "key": "B", "text": "Triglicerydy ≥ 150 mg/dl", "correct": true, "explanation": "Hipertriglicerydemia ≥ 150 mg/dl to jedno z czterech kryteriów dodatkowych IDF.", "image": null },
+      { "key": "C", "text": "HDL < 40 mg/dl u mężczyzn", "correct": true, "explanation": "Niskie HDL: <40 mg/dl u mężczyzn lub <50 mg/dl u kobiet to kryterium IDF.", "image": null },
+      { "key": "D", "text": "Ciśnienie tętnicze ≥ 130/85 mmHg", "correct": true, "explanation": "Nadciśnienie ≥130/85 mmHg lub leczenie hipotensyjne to kryterium IDF.", "image": null },
+      { "key": "E", "text": "Glikemia na czczo ≥ 126 mg/dl", "correct": false, "explanation": "Kryterium IDF to glikemia ≥ 100 mg/dl, nie 126 mg/dl (126 to próg rozpoznania cukrzycy).", "image": null }
+    ],
+    "tags": ["metabolizm", "kardiometabolizm"]
+  },
+  {
+    "id": "CHIR-001",
+    "category": "chirurgia",
+    "subcategory": "jama_brzuszna",
+    "difficulty": 2,
+    "source": "LEK 2022/1",
+    "question": "Klasycznym objawem ostrego zapalenia wyrostka robaczkowego jest ból w punkcie:",
+    "question_image": null,
+    "answers": [
+      { "key": "A", "text": "Chełmońskiego", "correct": false, "explanation": "Punkt Chełmońskiego to okolica nerki — objaw w kamicy nerkowej.", "image": null },
+      { "key": "B", "text": "McBurneya", "correct": true, "explanation": "Punkt McBurneya leży w 1/3 odległości między pępkiem a kolcem biodrowym przednim górnym prawym — klasyczny punkt w OZW.", "image": null },
+      { "key": "C", "text": "Murphy'ego", "correct": false, "explanation": "Objaw Murphy'ego dotyczy pęcherzyka żółciowego (ostre zapalenie).", "image": null },
+      { "key": "D", "text": "Kerra", "correct": false, "explanation": "Punkt Kerra wskazuje na chorobę dróg żółciowych.", "image": null },
+      { "key": "E", "text": "Mayo-Robsona", "correct": false, "explanation": "Punkt Mayo-Robsona wskazuje na chorobę trzustki.", "image": null }
+    ],
+    "tags": ["appendicitis", "diagnostyka"]
+  },
+  {
+    "id": "PSY-001",
+    "category": "psychiatria",
+    "subcategory": "farmakoterapia",
+    "difficulty": 2,
+    "source": "LEK 2023/1",
+    "question": "Lekiem pierwszego wyboru w leczeniu epizodu dużej depresji (MDD) jest:",
+    "question_image": null,
+    "answers": [
+      { "key": "A", "text": "Lit", "correct": false, "explanation": "Lit stosuje się w stabilizacji nastroju w ChAD, nie jako pierwsza linia w depresji jednobiegunowej.", "image": null },
+      { "key": "B", "text": "Haloperidol", "correct": false, "explanation": "Haloperidol to klasyczny neuroleptyk — nie lek przeciwdepresyjny.", "image": null },
+      { "key": "C", "text": "SSRI (np. sertralina)", "correct": true, "explanation": "Selektywne inhibitory wychwytu zwrotnego serotoniny (SSRI) są lekami pierwszego wyboru w MDD — skuteczne i dobrze tolerowane.", "image": null },
+      { "key": "D", "text": "Benzodiazepina", "correct": false, "explanation": "Benzodiazepiny łagodzą lęk i bezsenność, ale nie mają działania przeciwdepresyjnego.", "image": null },
+      { "key": "E", "text": "Karbamazepina", "correct": false, "explanation": "Karbamazepina to lek normotymiczny i przeciwdrgawkowy.", "image": null }
+    ],
+    "tags": ["depresja", "SSRI"]
+  },
+  {
+    "id": "GIN-001",
+    "category": "ginekologia",
+    "subcategory": "onkologia_gin",
+    "difficulty": 1,
+    "source": "LEK 2022/2",
+    "question": "Badaniem przesiewowym w kierunku raka szyjki macicy jest:",
+    "question_image": null,
+    "answers": [
+      { "key": "A", "text": "USG transwaginalne", "correct": false, "explanation": "USG TV jest przydatne w ocenie endometrium i jajników, nie w przesiewaniu raka szyjki.", "image": null },
+      { "key": "B", "text": "Cytologia (test Pap)", "correct": true, "explanation": "Cytologia szyjki macicy (Pap-test) lub test HPV to podstawowe badania przesiewowe raka szyjki macicy.", "image": null },
+      { "key": "C", "text": "Mammografia", "correct": false, "explanation": "Mammografia to badanie przesiewowe raka piersi, nie szyjki macicy.", "image": null },
+      { "key": "D", "text": "Kolposkopia", "correct": false, "explanation": "Kolposkopia jest badaniem diagnostycznym (po nieprawidłowym Pap-teście), nie przesiewowym.", "image": null },
+      { "key": "E", "text": "CA-125", "correct": false, "explanation": "CA-125 to marker raka jajnika, nie szyjki macicy.", "image": null }
+    ],
+    "tags": ["onkologia", "profilaktyka"]
+  },
+  {
+    "id": "FAR-001",
+    "category": "interna",
+    "subcategory": "farmakologia",
+    "difficulty": 3,
+    "source": "LEK 2023/2",
+    "question": "Który mechanizm jest odpowiedzialny za działanie hipolipemizujące statyn?",
+    "question_image": null,
+    "answers": [
+      { "key": "A", "text": "Blokada receptorów LDL w hepatocytach", "correct": false, "explanation": "Statyny nie blokują receptorów LDL — wręcz zwiększają ich ekspresję na powierzchni hepatocytów.", "image": null },
+      { "key": "B", "text": "Hamowanie reduktazy HMG-CoA", "correct": true, "explanation": "Statyny kompetycyjnie hamują reduktazę HMG-CoA — kluczowy enzym w syntezie cholesterolu. Efektem jest wzrost ekspresji receptorów LDL i obniżenie LDL-C.", "image": null },
+      { "key": "C", "text": "Aktywacja lipazy lipoproteinowej (LPL)", "correct": false, "explanation": "Aktywacja LPL to mechanizm fibratów, nie statyn.", "image": null },
+      { "key": "D", "text": "Wiązanie kwasów żółciowych w jelicie", "correct": false, "explanation": "To mechanizm żywic jonowymiennych (cholestyramina, kolestypol).", "image": null },
+      { "key": "E", "text": "Hamowanie wchłaniania cholesterolu w jelicie", "correct": false, "explanation": "To mechanizm ezetymibu — inhibitora NPC1L1.", "image": null }
+    ],
+    "tags": ["farmakologia", "lipidologia"]
+  },
+  {
+    "id": "MR-001",
+    "category": "med_rodzinna",
+    "subcategory": "nadcisnienie",
+    "difficulty": 1,
+    "source": "LEK 2022/1",
+    "question": "Zgodnie z wytycznymi ESC/PTK, od jakich wartości rozpoznajemy nadciśnienie tętnicze?",
+    "question_image": null,
+    "answers": [
+      { "key": "A", "text": "≥ 120/80 mmHg", "correct": false, "explanation": "120/80 mmHg to górna granica ciśnienia optymalnego.", "image": null },
+      { "key": "B", "text": "≥ 130/85 mmHg", "correct": false, "explanation": "130–139/85–89 mmHg to ciśnienie wysokie prawidłowe — jeszcze nie nadciśnienie.", "image": null },
+      { "key": "C", "text": "≥ 140/90 mmHg", "correct": true, "explanation": "Nadciśnienie tętnicze rozpoznajemy przy wartościach ≥140 mmHg skurczowym i/lub ≥90 mmHg rozkurczowym w pomiarach gabinetowych.", "image": null },
+      { "key": "D", "text": "≥ 150/95 mmHg", "correct": false, "explanation": "Próg zbyt wysoki — przy tej granicy przegapilibyśmy wielu pacjentów wymagających leczenia.", "image": null },
+      { "key": "E", "text": "≥ 160/100 mmHg", "correct": false, "explanation": "160/100 mmHg to nadciśnienie 2. stopnia wg ESC — nie jest progiem rozpoznania.", "image": null }
+    ],
+    "tags": ["nadciśnienie", "prewencja"]
+  },
+  {
+    "id": "RAT-001",
+    "category": "ratunkowa",
+    "subcategory": "resuscytacja",
+    "difficulty": 2,
+    "source": "LEK 2023/1",
+    "question": "Jaką częstotliwość uciśnięć klatki piersiowej zalecają wytyczne ERC 2021 podczas RKO u dorosłych?",
+    "question_image": null,
+    "answers": [
+      { "key": "A", "text": "60–80/min", "correct": false, "explanation": "Zbyt wolno — taka częstość nie zapewnia odpowiedniego rzutu serca.", "image": null },
+      { "key": "B", "text": "80–100/min", "correct": false, "explanation": "Poniżej zalecanego zakresu wg aktualnych wytycznych.", "image": null },
+      { "key": "C", "text": "100–120/min", "correct": true, "explanation": "Wytyczne ERC 2021 zalecają 100–120 uciśnięć/min przy głębokości 5–6 cm i pełnym odbarczeniu klatki.", "image": null },
+      { "key": "D", "text": "120–140/min", "correct": false, "explanation": "Zbyt szybko — przy >120/min spada skuteczność napełniania komór.", "image": null },
+      { "key": "E", "text": "Powyżej 140/min", "correct": false, "explanation": "Zdecydowanie za szybko — pogarsza rokowanie.", "image": null }
+    ],
+    "tags": ["RKO", "BLS", "ERC"]
+  },
+  {
+    "id": "NEU-001",
+    "category": "neurologia",
+    "subcategory": "udar",
+    "difficulty": 3,
+    "source": "LEK 2022/2",
+    "question": "W jakim oknie czasowym od wystąpienia objawów udaru niedokrwiennego mózgu można zastosować dożylną trombolizę rt-PA?",
+    "question_image": null,
+    "answers": [
+      { "key": "A", "text": "Do 1 godziny", "correct": false, "explanation": "Okno 1-godzinne jest zbyt wąskie — tromboliza jest skuteczna w szerszym przedziale czasowym.", "image": null },
+      { "key": "B", "text": "Do 3 godzin", "correct": false, "explanation": "3 godziny to minimalne okno — wytyczne rozszerzyły je do 4,5 h dla wybranych pacjentów.", "image": null },
+      { "key": "C", "text": "Do 4,5 godziny", "correct": true, "explanation": "Dożylna tromboliza rt-PA (alteplaza) jest zalecana do 4,5 godziny od wystąpienia objawów u kwalifikujących się pacjentów (wg ESO/PTN 2021).", "image": null },
+      { "key": "D", "text": "Do 6 godzin", "correct": false, "explanation": "6 godzin to okno dla mechanicznej trombektomii u wybranych pacjentów, nie dla trombolizy iv.", "image": null },
+      { "key": "E", "text": "Do 24 godzin", "correct": false, "explanation": "24 godziny — tak długie okno nie obowiązuje dla trombolizy dożylnej.", "image": null }
+    ],
+    "tags": ["udar", "tromboliza", "neurologia"]
+  }
+]
