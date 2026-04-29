@@ -13,24 +13,21 @@
   --brown-mid: #8a6f5a;
   --accent: #453223;
   --accent-hover: #2f2117;
-  --blue: #2563eb;
-  --blue-bg: #eff6ff;
-  --blue-border: #bfdbfe;
   --green: #1a7a4a;
   --green-bg: #f0faf4;
   --red: #c0392b;
   --red-bg: #fef5f5;
   --amber: #b45309;
   --amber-bg: #fffbeb;
-  --bg: #CFCFD1;
+  --bg: #f9f8f6;
   --surface: #ffffff;
-  --border: #e5e7eb;
-  --border-mid: #d1d5db;
+  --border: #ece8e2;
+  --border-mid: #d4cec6;
   --text: #1c1917;
   --text-2: #57534e;
   --text-3: #a8a29e;
-  --r: 12px;
-  --r-lg: 16px;
+  --r: 10px;
+  --r-lg: 14px;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); min-height: 1400px; font-size: 15px; -webkit-font-smoothing: antialiased; }
@@ -149,58 +146,34 @@ body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); c
 /* ── QUIZ ── */
 .prog-bar { height: 3px; background: var(--border); }
 .prog-fill { height: 100%; background: var(--brown); transition: width .4s; }
-.prog-info { display: none; } /* ukryte — zastąpione przez q-statusbar */
-
-/* Status bar — zaokrąglony kafelek jak na screenshotach */
-.q-statusbar {
-  margin: 12px 16px 0;
-  background: #fff;
-  border-radius: var(--r-lg);
-  box-shadow: var(--card-shadow);
-  padding: 10px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-}
-.qsb-left { display: flex; align-items: center; gap: 10px; }
-.qsb-num { font-size: 13px; font-weight: 600; color: var(--text); }
-.qsb-score { font-size: 13px; color: var(--text-2); }
-.qsb-score b { color: var(--text); }
-.qsb-cat { font-size: 12px; color: var(--text-3); font-weight: 500; background: var(--bg); border: 1px solid var(--border); border-radius: 20px; padding: 3px 10px; }
-
-/* Szare tło + biały kafelek z cieniem */
-.q-wrap { padding: 12px 16px 16px; background: var(--bg); }
-.q-card { background: #fff; border-radius: var(--r-lg); box-shadow: var(--card-shadow); padding: 20px; overflow: hidden; }
+.prog-info { display: flex; justify-content: space-between; padding: 8px 20px; font-size: 12px; color: var(--text-2); background: #fff; border-bottom: 1px solid var(--border); }
+.q-wrap { padding: 20px; }
 .q-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
 .q-crumb { font-size: 12px; color: var(--text-3); }
 .q-crumb span { color: var(--brown-mid); font-weight: 500; }
 .q-src { font-size: 11px; font-weight: 600; background: var(--brown-light); color: var(--brown); padding: 3px 8px; border-radius: 5px; }
-.q-num { font-size: 22px; font-weight: 700; color: var(--text); margin-bottom: 8px; line-height: 1; }
+.q-num { font-size: 22px; font-weight: 700; color: var(--text); margin-bottom: 2px; line-height: 1; }
 .q-img { width: 100%; border-radius: var(--r); border: 1px solid var(--border); margin-bottom: 14px; display: none; }
 .q-text { font-size: 16px; font-weight: 500; line-height: 1.6; color: var(--text); margin-bottom: 16px; }
-.multi-note { font-size: 12px; color: #6d28d9; background: #f5f3ff; border: 1px solid #ede9fe; border-radius: 8px; padding: 8px 12px; margin-bottom: 12px; display: none; }
+.multi-note { font-size: 12px; color: #6d28d9; background: #f5f3ff; border: 1px solid #ede9fe; border-radius: 7px; padding: 7px 12px; margin-bottom: 12px; display: none; }
 
 /* Odpowiedzi */
 .answers { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
-.ans { display: flex; align-items: center; gap: 12px; padding: 13px 16px; border: 1.5px solid var(--border); border-radius: var(--r); background: #fff; cursor: pointer; text-align: left; width: 100%; font-family: inherit; transition: all .12s; }
-.ans:hover:not(:disabled) { border-color: var(--blue); background: var(--blue-bg); }
-.ans-k { width: 30px; height: 30px; border-radius: 50%; border: 1.5px solid var(--border-mid); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; flex-shrink: 0; color: var(--text-2); transition: all .12s; background: #fff; }
-.ans-t { font-size: 14px; color: var(--text); line-height: 1.5; flex: 1; }
+.ans { display: flex; align-items: flex-start; gap: 11px; padding: 12px 16px; border: 1px solid var(--border); border-radius: var(--r); background: #fff; cursor: pointer; text-align: left; width: 100%; font-family: inherit; transition: all .12s; }
+.ans:hover:not(:disabled) { border-color: var(--brown-mid); background: var(--brown-light); }
+.ans-k { width: 28px; height: 28px; border-radius: 50%; border: 1.5px solid var(--border-mid); display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; color: var(--text-2); transition: all .12s; }
+.ans-t { font-size: 14px; color: var(--text); line-height: 1.5; padding-top: 4px; flex: 1; }
 
-/* States — niebieski jak w screenshotach */
-.ans.picked { border-color: var(--blue); background: var(--blue-bg); }
-.ans.picked .ans-k { background: var(--blue); border-color: var(--blue); color: #fff; }
-.ans.picked .ans-t { color: var(--blue); font-weight: 500; }
-
+/* States */
+.ans.picked { border-color: var(--brown); background: var(--brown-light); }
+.ans.picked .ans-k { background: var(--brown); border-color: var(--brown); color: #fff; }
+.ans.picked .ans-t { color: var(--brown); }
 .ans.correct { border-color: var(--green); background: var(--green-bg); }
 .ans.correct .ans-k { background: var(--green); border-color: var(--green); color: #fff; }
 .ans.correct .ans-t { color: var(--green); font-weight: 500; }
-
 .ans.wrong { border-color: var(--red); background: var(--red-bg); }
 .ans.wrong .ans-k { background: var(--red); border-color: var(--red); color: #fff; }
 .ans.wrong .ans-t { color: var(--red); }
-
 .ans.missed { border-color: var(--amber); background: var(--amber-bg); }
 .ans.missed .ans-k { background: var(--amber); border-color: var(--amber); color: #fff; }
 .ans.missed .ans-t { color: var(--amber); }
@@ -217,15 +190,12 @@ body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); c
 .exp-k { font-weight: 700; }
 
 /* Bottom quiz bar */
-.q-bar { background: #fff; border-top: 1px solid var(--border); padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.q-bar { position: sticky; bottom: 0; background: #fff; border-top: 1px solid var(--border); padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; }
 .btn-star { padding: 9px 13px; border: 1px solid var(--border); border-radius: var(--r); background: var(--bg); font-size: 15px; cursor: pointer; color: var(--text-2); transition: all .12s; }
 .btn-star:hover { border-color: var(--amber); background: var(--amber-bg); }
 .btn-star.on { color: var(--amber); background: var(--amber-bg); border-color: var(--amber); }
-/* Zatwierdź — niebieski */
-.btn-confirm { padding: 10px 20px; background: var(--blue); color: #fff; border: none; border-radius: 22px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: inherit; display: none; transition: background .12s; }
-.btn-confirm:hover { background: #1d4ed8; }
+.btn-confirm { padding: 10px 20px; background: #57534e; color: #fff; border: none; border-radius: 22px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: inherit; display: none; }
 .btn-confirm:disabled { background: var(--border); color: var(--text-3); cursor: default; }
-/* Dalej — brązowy */
 .btn-next { padding: 10px 24px; background: var(--brown); color: #fff; border: none; border-radius: 22px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: inherit; transition: background .12s; }
 .btn-next:hover { background: var(--accent-hover); }
 .btn-next:disabled { background: var(--border); color: var(--text-3); cursor: default; }
@@ -374,32 +344,27 @@ body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); c
 <!-- QUIZ -->
 <div class="screen" id="sQuiz">
   <div class="prog-bar"><div class="prog-fill" id="progFill" style="width:0%"></div></div>
-  <div class="q-statusbar">
-    <div class="qsb-left">
-      <span class="qsb-num">Pytanie <b id="progLbl">1 / 10</b></span>
-      <span class="qsb-score">Wynik: <b id="liveScore">0 / 0</b></span>
-    </div>
-    <span class="qsb-cat" id="liveCat">–</span>
+  <div class="prog-info">
+    <span id="progLbl">1 / 10</span>
+    <span>Wynik: <b id="liveScore">0 / 0</b> · <span id="liveCat">–</span></span>
   </div>
   <div class="q-wrap">
-    <div class="q-card">
-      <div class="q-top">
-        <div class="q-crumb" id="qCrumb"></div>
-        <span class="q-src" id="qSrc" style="display:none"></span>
-      </div>
-      <div class="q-num" id="qNum">1.</div>
-      <img class="q-img" id="qImg" src="" alt="">
-      <div class="q-text" id="qText"></div>
-      <div class="multi-note" id="multiNote">Zaznacz <b>wszystkie</b> prawidłowe odpowiedzi i zatwierdź.</div>
-      <div class="answers" id="answersDiv"></div>
-      <div class="exp" id="expBlock"><div class="exp-h" id="expH"></div><div id="expBody"></div></div>
-      <div class="q-bar">
-        <button class="btn-star" id="btnStar">☆</button>
-        <div style="display:flex;gap:8px">
-          <button class="btn-confirm" id="btnConfirm" disabled>Zatwierdź</button>
-          <button class="btn-next" id="btnNext" disabled>Dalej →</button>
-        </div>
-      </div>
+    <div class="q-top">
+      <div class="q-crumb" id="qCrumb"></div>
+      <span class="q-src" id="qSrc" style="display:none"></span>
+    </div>
+    <div class="q-num" id="qNum">1.</div>
+    <img class="q-img" id="qImg" src="" alt="">
+    <div class="q-text" id="qText"></div>
+    <div class="multi-note" id="multiNote">Zaznacz <b>wszystkie</b> prawidłowe odpowiedzi i zatwierdź.</div>
+    <div class="answers" id="answersDiv"></div>
+    <div class="exp" id="expBlock"><div class="exp-h" id="expH"></div><div id="expBody"></div></div>
+  </div>
+  <div class="q-bar">
+    <button class="btn-star" id="btnStar">☆</button>
+    <div style="display:flex;gap:8px">
+      <button class="btn-confirm" id="btnConfirm" disabled>Zatwierdź</button>
+      <button class="btn-next" id="btnNext" disabled>Dalej →</button>
     </div>
   </div>
 </div>
